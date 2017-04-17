@@ -1,10 +1,10 @@
-import React from 'React';
+import React from 'react';
 import Tweet from './Tweet';
 
 class TweetList extends React.Component{
 
   constructor(props){
-    super(props);
+    super(props)
   }
 
   render(){
@@ -14,11 +14,12 @@ class TweetList extends React.Component{
         );
     })
     return (
-        <div>
+        <div id="tweet-list">
           {tweetComponents}
         </div>
       )
   }
+
 }
 
 

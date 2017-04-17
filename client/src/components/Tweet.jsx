@@ -7,7 +7,7 @@ class Tweet extends React.Component{
 
   render(){
     return (
-      <div id="comment">
+      <div id="single-tweet">
         {this.props.text}
         <ul id="tweet-info">
           <li>{this.props.username}</li>
