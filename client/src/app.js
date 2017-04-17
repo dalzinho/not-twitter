@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import TweetContainer from './components/TweetContainer';
 
 window.onload = function(){
   ReactDOM.render(
-    <h1> App Started </h1>,
+    <TweetContainer/>,
     document.getElementById('app')
   );
 }
