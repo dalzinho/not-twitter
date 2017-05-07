@@ -39,7 +39,7 @@ class TweetContainer extends React.Component{
   render(){
     return (
       <div id="container">
-      <h1>This is Not Twitter</h1>
+      <h1>This is <strong>Not</strong> Twitter</h1>
       <TweetInput />
       <TweetList tweets={this.state.data}/>
       </div>
